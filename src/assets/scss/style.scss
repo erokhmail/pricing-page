@@ -318,7 +318,7 @@ main {
       }
 
       &::after {
-        background: url(assets/images/check-w.png) no-repeat;
+        background: url(../../assets/images/check-w.png) no-repeat;
       }
     }
   }
@@ -377,7 +377,7 @@ main {
 
     &::after {
       content: '';
-      background: url(assets/images/check.png) no-repeat;
+      background: url(../../assets/images/check.png) no-repeat;
       background-size: 100%;
       display: inline-block;
       width: 12px;
