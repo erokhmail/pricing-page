@@ -16,13 +16,13 @@
   "author": "Olena Rokhmail",
   "license": "ISC",
   "repository": {
-    "type": "git",
+    "type": "git+https://github.com/erokhmail/pricing-page.git",
     "url": ""
   },
   "bugs": {
-    "url": "https://github.com/test"
+    "url": "https://github.com/erokhmail/pricing-page/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/erokhmail/pricing-page#readme",
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
