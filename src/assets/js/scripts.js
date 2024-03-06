@@ -1,6 +1,6 @@
   /*/*-====================Top-for-header ====================-*/
   window.addEventListener('scroll', function () {
-    let scrollTopPosition = 0; // Верхня позиція прокрутки, коли елемент має бути зафіксований
+    let scrollTopPosition = 0;
     let header = document.getElementById("header");
 
     if (window.scrollY > scrollTopPosition) {

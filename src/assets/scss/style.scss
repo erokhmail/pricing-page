@@ -221,16 +221,6 @@ main {
   .name {
     color: #fff;
   }
-
-  @keyframes fadeEffect {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
 }
 
 
@@ -242,8 +232,18 @@ main {
   &.active {
     display: block;
     z-index: 2;
+    animation: fadeEffect 1s ease;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0.75;
   }
 
+  to {
+    opacity: 1;
+  }
 }
 
 .pricing-block {

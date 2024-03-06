@@ -1,7 +1,4 @@
 @media screen and (max-width:1200px) {
-    .tab-container {
-        width: 100%;
-    }
 
     .tab-content {
         margin-inline: auto;
@@ -29,12 +26,16 @@
 }
 
 @media screen and (max-width:1024px) {
-    #header {
+    .header {
         .header-wrap {
             .main-menu {
                 width: 40vw;
             }
         }
+    }
+
+    .tab-container {
+        width: 100%;
     }
 
     .pricing-block {
@@ -60,7 +61,7 @@
 }
 
 @media screen and (max-width:700px) {
-    #header {
+    .header {
         .header-wrap {
             .main-menu {
                 width: 60vw;
@@ -98,7 +99,7 @@
 }
 
 @media screen and (max-width:400px) {
-    #header {
+    .header {
         .header-wrap {
             .main-menu {
                 width: 75vw;
@@ -115,13 +116,13 @@
         gap: 7px;
     }
 
-    #hamb-bnt {
+    .burger-btn {
         svg {
             margin-left: 10px;
         }
     }
 
-    #logo {
+    .logo {
         svg {
             margin-left: -10px;
         }
