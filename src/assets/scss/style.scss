@@ -266,6 +266,10 @@ main {
     margin-left: -22px;
   }
 
+  &:not(:last-of-type) {
+    max-width: 290px;
+  }
+
   &.dark {
     background-color: $dark;
     border-radius: 26px;
@@ -353,7 +357,7 @@ main {
   }
 
   .list {
-    margin-bottom: 52px;
+    margin-bottom: 54px;
   }
 
   li {

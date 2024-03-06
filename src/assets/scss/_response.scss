@@ -13,6 +13,10 @@
 
     }
 
+    .pricing-info {
+        width: 96%;
+    }
+
     .pricing-item {
         padding-left: 15px;
         padding-right: 15px;
@@ -21,11 +25,16 @@
             padding-left: 30px;
             padding-right: 30px;
 
+            .pricing-info {
+                width: 99%;
+            }
         }
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1064px) {}
+
+@media screen and (max-width:1064px) {
     .header {
         .header-wrap {
             .main-menu {
@@ -55,6 +64,10 @@
 
         &:not(:first-of-type) {
             margin-left: unset;
+        }
+
+        &:not(:last-of-type) {
+            max-width: unset;
         }
     }
 
